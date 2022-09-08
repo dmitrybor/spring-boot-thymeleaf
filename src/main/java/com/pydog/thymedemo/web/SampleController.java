@@ -1,4 +1,4 @@
-package com.pydog.hdemo.web;
+package com.pydog.thymedemo.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

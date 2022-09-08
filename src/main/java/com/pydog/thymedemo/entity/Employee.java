@@ -1,4 +1,4 @@
-package com.pydog.hdemo.entity;
+package com.pydog.thymedemo.entity;
 
 public class Employee {
     private int id;

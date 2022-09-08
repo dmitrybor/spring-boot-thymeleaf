@@ -1,4 +1,4 @@
-package com.pydog.hdemo;
+package com.pydog.thymedemo;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

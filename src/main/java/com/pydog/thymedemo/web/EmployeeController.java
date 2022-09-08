@@ -1,6 +1,6 @@
-package com.pydog.hdemo.web;
+package com.pydog.thymedemo.web;
 
-import com.pydog.hdemo.entity.Employee;
+import com.pydog.thymedemo.entity.Employee;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
