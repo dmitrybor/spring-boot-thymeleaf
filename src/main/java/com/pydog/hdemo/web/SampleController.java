@@ -1,13 +1,17 @@
 package com.pydog.hdemo.web;
 
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+import java.time.LocalDateTime;
+
+@Controller
 public class SampleController {
 
-    @GetMapping("/test")
-    public String test() {
-        return "test";
+    @GetMapping("/hello")
+    public String hello(Model model) {
+        model.addAttribute("theDate", LocalDateTime.now());
+        return "hello";
     }
 }
